@@ -1,0 +1,17 @@
+body{
+    font-family: 'Style Script', cursive;
+    background: #f5dbda;
+}
+.header_div {
+    background-color:white;
+    color: rgb(0, 0, 0);
+}
+
+.header_div img{
+    width: 100px;
+}
+
+#testimg{
+    width: 400px;
+    box-shadow:  10px 10px 18px whitesmoke;
+}

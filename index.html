@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <center>
+<div class="col-xs-12 header_div">
+  <h2>Case Study
+  <img src="logo.gif">
+  </h2>
+  </div>
+  </center>
+ <ol>
+   <div class="test_images_and_result">
+<li>
+  <b>Test Image - </b><img src="frame.png" id="testimg" class="img-responsive" >
+</li>
+<h5>Output on <b>Microsoft Azure</b>- Frame in a room
+<span></span>
+</h5>
+<h5>Output on <b>Mobilenet</b>- ATM
+  <span></span>
+  </h5>
+    <li>
+      <b>Test Image - </b><img src="hairbrush.png" id="testimg" class="img-responsive" >
+    </li>
+    <h5>Output on <b>Microsoft Azure</b>- Closeup of a tool
+    <span></span>
+    </h5>
+    <h5>Output on <b>Mobilenet</b>- Hair Drier
+      <span></span>
+      </h5>
+      <li>
+        <b>Test Image - </b><img src="headphones.png" id="testimg" class="img-responsive" >
+      </li>
+      <h5>Output on <b>Microsoft Azure</b>- Small pink toy
+      <span></span>
+      </h5>
+      <h5>Output on <b>Mobilenet</b>- Iron
+        <span></span>
+        </h5>
+        <li>
+          <b>Test Image - </b><img src="lotion.png" id="testimg" class="img-responsive" >
+        </li>
+        <h5>Output on <b>Microsoft Azure</b>- Plastic bottle
+        <span></span>
+        </h5>
+        <h5>Output on <b>Mobilenet</b>- Sunscreen
+          <span></span>
+          </h5>
+          <li>
+            <b>Test Image - </b><img src="painting.png" id="testimg" class="img-responsive" >
+          </li>
+          <h5>Output on <b>Microsoft Azure</b>- Closeup of logo
+          <span></span>
+          </h5>
+          <h5>Output on <b>Mobilenet</b>- Punching bag
+            <span></span>
+            </h5>
+            <li>
+              <b>Test Image - </b><img src="Plushie.png" id="testimg" class="img-responsive" >
+            </li>
+            <h5>Output on <b>Microsoft Azure</b>- A pink stuffed toy
+            <span></span>
+            </h5>
+            <h5>Output on <b>Mobilenet</b>- Balloon
+              <span></span>
+              </h5>
+              <li>
+                <b>Test Image - </b><img src="rubickscube.png" id="testimg" class="img-responsive" >
+              </li>
+              <h5>Output on <b>Microsoft Azure</b>- Blue suitcase
+              <span></span>
+              </h5>
+              <h5>Output on <b>Mobilenet</b>- Igniter
+                <span></span>
+                </h5>
+                <li>
+                  <b>Test Image - </b><img src="scissors.png" id="testimg" class="img-responsive" >
+                </li>
+                <h5>Output on <b>Microsoft Azure</b>- Pair of scissors
+                <span></span>
+                </h5>
+                <h5>Output on <b>Mobilenet</b>- Claw
+                  <span></span>
+                  </h5>
+                  <li>
+                    <b>Test Image - </b><img src="tape.png" id="testimg" class="img-responsive" >
+                  </li>
+                  <h5>Output on <b>Microsoft Azure</b>- Circle shaped toy
+                  <span></span>
+                  </h5>
+                  <h5>Output on <b>Mobilenet</b>- Projector
+                    <span></span>
+                    </h5>
+                    <li>
+                      <b>Test Image - </b><img src="workbook.png" id="testimg" class="img-responsive" >
+                    </li>
+                    <h5>Output on <b>Microsoft Azure</b>- A book
+                    <span></span>
+                    </h5>
+                    <h5>Output on <b>Mobilenet</b>- Packet
+                      <span></span>
+                      </h5>
+
+  <div class="mini-result">
+    <h4>Result- </h4>
+    <hr>
+    <h4>Out of all pictures, Microsoft Azure got 8 correct, and MobileNet got 2 correct.
+      Thus, <b>Microsoft Azure</b> is more accurate.
+    </h4>
+  </div>
+   </div>
+   <hr>
+ </ol> 
+ </body>
+ </html>
